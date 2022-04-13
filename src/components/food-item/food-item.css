@@ -1,0 +1,40 @@
+/*  Author: Tasneem Yusuf Porbanderwala */
+.fi-raw-material-list {
+  height: auto;
+  max-height: 430px;
+  overflow: scroll;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.fi-selected-raw-material-list {
+  height: auto;
+  max-height: 330px;
+  overflow: scroll;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.is-invalid.fi-raw-material-list {
+  border-color: #bc3347cc;
+}
+.height-100 {
+  height: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 14vw;
+  object-fit: cover;
+}
+
+.deck {
+  width: 100%;
+}
+
+.custom-file-label::after {
+  color: white;
+  height: 3rem;
+}
+
+.border-radius {
+  border-top-right-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+}
